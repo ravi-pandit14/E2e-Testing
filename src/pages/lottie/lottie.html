@@ -1,0 +1,37 @@
+<!--
+  Generated template for the LottiePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar>
+    <ion-title>lottie</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <div class="svg-container">
+    <lottie-animation-view
+    [options]="lottieConfig"
+       
+>
+
+</lottie-animation-view>
+</div>
+
+<div class="fixed-bottom">
+  <ion-grid>
+      <ion-row>
+          <button class="btn-google" ion-button (click)="goToclcik()">
+              <span class="btn-social-text">click</span>
+          </button>
+      </ion-row>
+      <ion-row>
+          <button class="btn-facebook" ion-button (click)="goToApp()">
+              <span class="btn-social-text">Access</span>
+          </button>
+      </ion-row>
+  </ion-grid>
+</div>
+</ion-content>
